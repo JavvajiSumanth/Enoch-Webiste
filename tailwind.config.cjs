@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      primary: ["Dosis"],
+    },
+    extend: {
+      colors: {
+        secondary: "#848484",
+      },
+    },
   },
   plugins: [],
 };

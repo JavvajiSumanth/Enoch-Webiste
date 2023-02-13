@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Outlet } from "react-router-dom";
+import Header from "./Header";
 
 const MainLayout = () => {
   const [toggle, setToggle] = useState(false);
@@ -30,8 +31,7 @@ const MainLayout = () => {
 
   return (
     <div>
-      <div ref={containerRef}></div>
-      <div className="text-red-400">Header</div>
+      <Header />
       <div>
         <Outlet />
       </div>
