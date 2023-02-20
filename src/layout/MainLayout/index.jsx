@@ -30,12 +30,9 @@ const MainLayout = () => {
   const containerRef = useRef(null);
 
   return (
-    <div>
-      <Header />
-      <div>
-        <Outlet />
-      </div>
-    </div>
+    <>
+      <Outlet />
+    </>
   );
 };
 

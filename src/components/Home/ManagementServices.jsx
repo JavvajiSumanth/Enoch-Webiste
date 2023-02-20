@@ -8,14 +8,14 @@ import { BiBuildings } from "react-icons/bi";
 
 const ManagementServices = () => {
   return (
-    <div className="min-h-screen p-10">
+    <div className="min-h-screen px-4 py-8  md:p-10 max-w-screen-lg mx-auto">
       <h1 className="font-primary tracking-wide text-3xl text-center mt-8">
         MANAGEMENT SERVICES
       </h1>
-      <h1 className="font-primary tracking-wide text-2xl text-center mt-4 text-secondary">
+      <h1 className="tracking-widest text-xl text-center mt-4 text-secondary">
         OWNERSHIP WITHOUT THE HASSLE
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 w-full max-w-screen-xl  mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 w-full max-w-screen-xl mx-auto">
         <div className="min-h-[150px]  w-full flex gap-5">
           <div className="mt-[-4px]">
             <HiOutlineDocument />
