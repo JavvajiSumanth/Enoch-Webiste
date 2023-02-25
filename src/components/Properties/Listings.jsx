@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 import { GiSofa } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { BiBed, BiBath } from "react-icons/bi";
 const img =
   "https://images.pexels.com/photos/1005058/pexels-photo-1005058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 const Listings = () => {
@@ -32,78 +34,44 @@ const Listings = () => {
               Showing all available listings
             </h1>
           </div>
-          <div className="p-3">
+          <div className="p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {[0, 1, 2, 3].map((el) => (
-              <div className="w-full bg-white p-3 flex flex-col sm:flex-row gap-3 my-4">
-                <div className="w-full sm:w-3/5 md:w-4/6 lg:w-2/5 ">
-                  {/* <Carousel {...getConfigurableProps()}>
-                {[img, img, img, img, img].map((img, idx) => (
-                  <div key={idx}>
-                    <img src={img} />
-                  </div>
-                ))}
-              </Carousel> */}
-                  <div>
-                    <img src={img} />
-                  </div>
+              <div className="group w-full bg-white p-3 flex flex-col gap-3 outline outline-1 outline-slate-300">
+                <div className="w-full overflow-hidden">
+                  <img
+                    src={img}
+                    className="group-hover:scale-110 ease-in duration-500"
+                  />
                 </div>
                 <div className="w-full relative">
-                  <h1 className="font-medium tracking-wide font-primary text-xl">
+                  {/* <h1 className="font-medium tracking-wide font-primary text-xl">
                     2 BHK Flat for Rent in Hollywood.
+                  </h1> */}
+                  <h1 className="font-medium tracking-widest font-primary text-xs">
+                    <span className="text-blue-700 ml-2 text-xl">
+                      $1,345.00{" "}
+                    </span>{" "}
+                    USD/Month
                   </h1>
-                  <div className="grid grid-cols-2 md:grid-cols-3  my-4">
-                    <div className="flex items-center  gap-x-4 ">
-                      <GiSofa />
+                  <div className="grid grid-cols-3 my-4">
+                    <div className="flex items-center  gap-x-2 ">
+                      <BiBed size={30} />
                       <div>
-                        <h1 className="font-medium text-md font-primary">
-                          RENT
-                        </h1>
-                        <p className="text-sm text-secondary">$1,250</p>
+                        <p className="text-sm text-secondary">2 bd</p>
                       </div>{" "}
                     </div>
-                    <div className="flex  items-center gap-x-4 ">
-                      <GiSofa />
+                    <div className="flex  items-center gap-x-2 ">
+                      <BiBath size={30} />
                       <div>
-                        <h1 className="font-medium text-md font-primary">
-                          BED / BATH
-                        </h1>
-                        <p className="text-sm text-secondary">Studio / 1 ba</p>
+                        <p className="text-sm text-secondary">1 ba</p>
                       </div>{" "}
                     </div>
-                    <div className="flex items-center  gap-x-4 ">
-                      <GiSofa />
+                    <div className="flex items-center  gap-x-2 ">
+                      <TfiRulerPencil size={30} />
                       <div>
-                        <h1 className="font-medium text-md font-primary">
-                          AVAILABLE
-                        </h1>
-                        <p className="text-sm text-secondary">NOW</p>
+                        <p className="text-sm text-secondary">335 sqft</p>
                       </div>{" "}
                     </div>
-                    {/* <div className="flex items-center  gap-x-4 ">
-                    <GiSofa />
-                    <div>
-                      <h1 className="font-medium text-md font-primary">
-                        Furnishing
-                      </h1>
-                      <p className="text-sm text-secondary">Furnishing</p>
-                    </div>{" "}
-                  </div>
-                  <div className="flex  items-center gap-x-4 ">
-                    <GiSofa />
-                    <div>
-                      <h1 className="font-medium text-md font-primary">Area</h1>
-                      <p className="text-sm text-secondary">Area</p>
-                    </div>{" "}
-                  </div>
-                  <div className="flex items-center  gap-x-4 ">
-                    <GiSofa />
-                    <div>
-                      <h1 className="font-medium text-md font-primary">
-                        Availability
-                      </h1>
-                      <p className="text-sm text-secondary">Availability</p>
-                    </div>{" "}
-                  </div> */}
                   </div>
                   <p className="flex items-center text-sm md:text-md  my-4">
                     <GoLocation
@@ -115,30 +83,21 @@ const Listings = () => {
                     />
                     4673 Hollywood Blvd. - 115, Los Angeles, CA 90027
                   </p>
-                  <p className="text-sm hidden lg:block">
+                  <p className="text-sm hidden lg:block my-2">
                     Newly remodeled studio apartment with wood floors
                     throughout, remodeled bathroom and kitchen. The unit
-                    includes lots of storage and a walk in closet. It is located
-                    on the second floor of a mixed use apartment building. Close
-                    to many vintage stores, coffee shops, restaurants and more!
-                    Just minutes away from Griffith Park. The building is
-                    located at the corner of Hollywood Blvd. and Vermont. No
-                    p...
+                    includes lots of storage and a walk in closet. p...
                   </p>
-                  <p className="text-sm hidden lg:block mt-3">
+                  <p className="text-sm  my-1">
                     Amenities: Refrigerator, Oven/Stove, Window A/C
                   </p>
-                  <p className="text-sm hidden lg:block">
-                    Pet Policy:Cats allowed, Dogs not allowed
-                  </p>
-                  <div className=" lg:absolute right-0 bottom-0 flex ">
-                    <button className="outline outline-1 px-4 py-1 rounded-sm ml-auto">
-                      View Details
-                    </button>
-                    <button className="outline outline-1 px-4 py-1 ml-2 rounded-sm bg-slate-700 text-white">
-                      Apply Now
-                    </button>
-                  </div>
+                  <p className="text-sm my-1">
+                    Pet Policy: Cats allowed, Dogs not allowed
+                  </p>{" "}
+                  <p className="text-sm my-1">Available: Immediately</p>
+                  <button className="w-full mt-3 bg-black text-white ease-in duration-150 outline outline-1 px-4 py-1 rounded-sm ml-auto hover:bg-white hover:text-black">
+                    View Details
+                  </button>
                 </div>
               </div>
             ))}

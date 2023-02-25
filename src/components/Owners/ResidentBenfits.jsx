@@ -7,7 +7,7 @@ import { BsFileEarmarkBarGraph } from "react-icons/bs";
 import { BiBuildings } from "react-icons/bi";
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
-const Promises = () => {
+const ResidentBenfits = () => {
   return (
     <>
       <MiniHeader heading={"Promises"} subHeading={"Promises"} />
@@ -27,11 +27,10 @@ const Promises = () => {
             </div>
 
             <div>
-              <h2 className="font-primary text-xl mb-1">Eviction Guarantee</h2>
+              <h2 className="font-primary text-xl mb-1">Utility Concierge</h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                A concierge service will assist you in setting up your utilities
+                as well as any phone, cable, or security needs.
               </p>
             </div>
           </div>
@@ -40,11 +39,12 @@ const Promises = () => {
               <RiMoneyDollarCircleLine />
             </div>
             <div>
-              <h2 className="font-primary text-xl mb-1">Contract Guarantee</h2>
+              <h2 className="font-primary text-xl mb-1">
+                Security Deposit Protection
+              </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                If your property is foreclosed for any reason we guarantee the
+                protection of your security deposit.
               </p>
             </div>
           </div>
@@ -54,12 +54,12 @@ const Promises = () => {
             </div>
             <div>
               <h2 className="font-primary text-xl mb-1">
-                Tenant Placement Guarantee
+                Online Rent Payments
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Save money on postage and never worry about lost mail. Set up
+                one-time or recurring secure bank transfers or eChecks... and
+                with NO convenience fees!
               </p>
             </div>
           </div>
@@ -69,12 +69,12 @@ const Promises = () => {
             </div>
             <div>
               <h2 className="font-primary text-xl mb-1">
-                Rent Deposit Guarantee
+                Fair Lease Agreements
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Our lease is prepared and approved by Tschetter-Sulzer, PC - one
+                of Colorado's most respected law firms - and is designed to be
+                fair and transparent.
               </p>
             </div>
           </div>
@@ -84,12 +84,11 @@ const Promises = () => {
             </div>
             <div>
               <h2 className="font-primary text-xl mb-1">
-                Management Fee Guarantee
+                24 Hour Repair Hotline
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                You will talk to a real live trained technician for after hours
+                emergencies who will provide immediate help.
               </p>
             </div>
           </div>
@@ -99,12 +98,12 @@ const Promises = () => {
             </div>
             <div>
               <h2 className="font-primary text-xl mb-1">
-                Leasing Fee Guarantee
+                Secure Resident Portal
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Your password-protected portal allows you to view your payment
+                history, print rent receipts, make repair requests, and update
+                your information anytime.
               </p>
             </div>
           </div>
@@ -117,9 +116,8 @@ const Promises = () => {
                 Response Time Guarantee
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Nobody likes waiting for a response, that is why we promise to
+                respond to all communication within 24 business hours.
               </p>
             </div>
           </div>
@@ -129,12 +127,11 @@ const Promises = () => {
             </div>
             <div>
               <h2 className="font-primary text-xl mb-1">
-                Pet Damage Guarantee
+                Property Inspections
               </h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                We inspect your property during your lease term to ensure there
+                are no outstanding repair issues.
               </p>
             </div>
           </div>
@@ -143,13 +140,12 @@ const Promises = () => {
               <BiBuildings />
             </div>
             <div>
-              <h2 className="font-primary text-xl mb-1">
-                Legal Compliance Guarantee
-              </h2>
+              <h2 className="font-primary text-xl mb-1">Quality Repairs</h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Our vendors are prescreened to ensure they are knowledgeable,
+                friendly, and they leave your property clean after a job. We
+                even send you a maintenance survey after the job so you can give
+                your honest feedback.
               </p>
             </div>
           </div>
@@ -158,13 +154,11 @@ const Promises = () => {
               <BiBuildings />
             </div>
             <div>
-              <h2 className="font-primary text-xl mb-1">
-                Premier Applicant Screening
-              </h2>
+              <h2 className="font-primary text-xl mb-1">Trust</h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Our family owned business has been serving residents since 1978,
+                so you know we will be here tomorrow (and the next day and the
+                next day) with honest, relationship based service.
               </p>
             </div>
           </div>
@@ -173,11 +167,13 @@ const Promises = () => {
               <BiBuildings />
             </div>
             <div>
-              <h2 className="font-primary text-xl mb-1">24/7 Online Reports</h2>
+              <h2 className="font-primary text-xl mb-1">Online Pet Profile</h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                Our Pet Profile provides you a secure place online to store all
+                the important information about your pets. Pet Profiles can
+                easily be shared with pet service providers such as
+                veterinarians, animal hospitals, pet sitters and doggie
+                daycares.
               </p>
             </div>
           </div>
@@ -186,11 +182,11 @@ const Promises = () => {
               <BiBuildings />
             </div>
             <div>
-              <h2 className="font-primary text-xl mb-1">Preferred Rates</h2>
+              <h2 className="font-primary text-xl mb-1">Giving Back</h2>
               <p className="text-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Ratione, animi tenetur iure facilis necessitatibus sint veniam
-                excepturi, numquam quis, praesentium eligendi facere!
+                For every lease we sign we contribute money to our 'Grace Gives'
+                fund. This money is used to help responsible residents pay their
+                rent during unexpected financial emergencies.
               </p>
             </div>
           </div>
@@ -201,4 +197,4 @@ const Promises = () => {
   );
 };
 
-export default Promises;
+export default ResidentBenfits;

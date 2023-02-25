@@ -7,7 +7,7 @@ import { BsFileEarmarkBarGraph } from "react-icons/bs";
 import { BiBuildings } from "react-icons/bi";
 import MiniHeader from "../../layout/MainLayout/MiniHeader";
 import Footer from "../../reusable/Footer";
-const Promises = () => {
+const ResidentResources = () => {
   return (
     <>
       <MiniHeader heading={"Promises"} subHeading={"Promises"} />
@@ -201,4 +201,4 @@ const Promises = () => {
   );
 };
 
-export default Promises;
+export default ResidentResources;

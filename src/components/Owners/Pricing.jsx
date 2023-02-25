@@ -1,6 +1,6 @@
 import React from "react";
-import MiniHeader from "../layout/MainLayout/MiniHeader";
-import Footer from "../reusable/Footer";
+import MiniHeader from "../../layout/MainLayout/MiniHeader";
+import Footer from "../../reusable/Footer";
 
 const Pricing = () => {
   return (
