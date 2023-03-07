@@ -1,7 +1,7 @@
 import React from "react";
 import MapImg from "../../assets/images/us.png";
 
-const LeaveAMessage = () => {
+const LeaveAMessage = ({ header }) => {
   return (
     <div
       className="min-h-[80vh] bg-contain bg-no-repeat bg-center "
@@ -11,7 +11,7 @@ const LeaveAMessage = () => {
       }}
     >
       <h1 className="uppercase tracking-wide text-3xl text-white text-center font-primary py-16">
-        Leave a message
+        {header}
       </h1>
       <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-6 w-full lg:w-4/5 mx-auto">
         <div>

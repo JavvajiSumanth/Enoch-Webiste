@@ -36,10 +36,10 @@ const NavBar = () => {
         <Link to={"/"}>RENTALS</Link>
       </div>
       <div className="p-3">
-        <Link to={"/"}>ABOUT US</Link>
+        <Link to={"/about"}>ABOUT US</Link>
       </div>
       <div className="p-3">
-        <Link to={"/"}>CONTACT</Link>
+        <Link to={"/contact"}>CONTACT</Link>
       </div>
     </div>
   );

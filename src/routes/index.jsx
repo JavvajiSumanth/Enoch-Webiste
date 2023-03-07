@@ -8,6 +8,10 @@ import WhatWeDo from "../components/Owners/WhatWeDo";
 import TenantScreening from "../components/Owners/TenantScreening";
 import ResidentBenfits from "../components/Owners/ResidentBenfits";
 import GettingYourPropertyReady from "../components/Owners/GettingYourPropertyReady";
+import ResidentResources from "../components/Owners/ResidentResources";
+import PetPolicy from "../components/Extra/PetPolicy";
+import About from "../views/AboutView";
+import Contact from "../views/Contact";
 
 // todo lazy loading
 
@@ -26,12 +30,19 @@ export default function TheRoutes() {
         <Route exact path="/pricing" element={<Pricing />} />
         <Route exact path="/tenant-screening" element={<TenantScreening />} />
         <Route exact path="/resident-benfits" element={<ResidentBenfits />} />
-        <Route exact path="/resident-resources" element={<TenantScreening />} />
+        <Route
+          exact
+          path="/resident-resources"
+          element={<ResidentResources />}
+        />
         <Route
           exact
           path="/getting-your-property-ready"
           element={<GettingYourPropertyReady />}
         />
+        <Route exact path="/pet-policy" element={<PetPolicy />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

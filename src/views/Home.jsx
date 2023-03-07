@@ -16,7 +16,7 @@ const Home = () => {
       <ManagementServices />
       <SelfManagementBanner />
       <Vacancies />
-      <LeaveAMessage />
+      <LeaveAMessage header={"LEAVE A MESSAGE"} />
       <Reviews />
       <Footer />
     </>

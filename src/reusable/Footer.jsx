@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,14 +19,14 @@ const Footer = () => {
               Quick Links
             </h1>
             <div className="flex flex-col space-y-1 text-secondary mt-4">
-              <a href="#">Properties</a>
-              <a href="#">Owners</a>
-              <a href="#">Tenants</a>
-              <a href="#">Blog</a>
-              <a href="#">About Us</a>
-              <a href="#">Contact Us</a>
-              <a href="#">Owner Login</a>
-              <a href="#">Tenant Login</a>
+              <Link to="/properties">Properties</Link>
+              <Link to="/promises">Owners</Link>
+              <Link to="/resident-resources">Resident Resources</Link>
+              {/* <Link to="/">Blog</Link> */}
+              <Link to="/about">About Us</Link>
+              <Link to="/contact">Contact Us</Link>
+              <Link to="/">Owner Login</Link>
+              <Link to="/">Tenant Login</Link>
             </div>
           </div>
           <div className="">

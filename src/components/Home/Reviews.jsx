@@ -10,7 +10,7 @@ const Reviews = () => {
       }}
     >
       <div className="w-4/5 md:w-3/4 mx-auto">
-        <h1 className="text-white font-primary tracking-wide text-3xl text-center ">
+        <h1 className="text-white font-primary tracking-wide text-4xl text-center uppercase">
           What clients say
         </h1>
         <Carousel
