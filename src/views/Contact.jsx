@@ -29,14 +29,14 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1 text-white">
-                  Los Angeles Office
+                  Fort Worth Office
                 </h2>
                 <p className="text-secondary">
-                  5500 Hollywood Blvd, Ste 212 Los Angeles, CA 90028
+                  8940 Creek Run Rd Fort Worth, TX 76120
                 </p>
               </div>
             </div>
-            <div className="w-full flex gap-5">
+            {/* <div className="w-full flex gap-5">
               <div className="mt-[-4px]">
                 <HiLocationMarker />
               </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                   5500 Hollywood Blvd, Ste 212 Los Angeles, CA 90028
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full flex gap-5">
               <div className="mt-[-4px]">
@@ -72,7 +72,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1 text-white">
-                  (000) 000-0000
+                  (817) 600-6228
                 </h2>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="font-primary text-xl mb-1 text-white">
-                  admin@admin.com
+                  rent@enochdfw.com
                 </h2>
               </div>
             </div>
@@ -141,3 +141,9 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// Enoch Properties
+// 8940 Creek Run Rd
+// Fort Worth, TX 76120
+// (817) 600-6228
+// rent@enochdfw.com

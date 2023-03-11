@@ -78,7 +78,7 @@ const ResidentResources = () => {
             </div>
             <div className="flex flex-col  space-y-3 ">
               <Link
-                to="/"
+                to="/contact"
                 className="text-center uppercase text-xs px-10 w-full md:w-3/4 py-2 bg-blue-600 text-white rounded-full hover:bg-transparent hover:text-blue-600 outline outline-1"
               >
                 contact us
@@ -88,7 +88,7 @@ const ResidentResources = () => {
                 to="/"
                 className="text-center uppercase text-xs px-10 w-full md:w-3/4 py-2 bg-blue-600 text-white rounded-full hover:bg-transparent hover:text-blue-600 outline outline-1"
               >
-                other resident resources
+                Tenent Login
               </Link>
             </div>
           </div>

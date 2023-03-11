@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LogoImg from "../assets/images/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -7,7 +8,13 @@ const Footer = () => {
       <div className="max-w-screen-xl p-6 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 mx-auto py-10 gap-y-4">
           <div className="col-span-1 md:col-span-2 md:px-4">
-            <div className="h-[120px] w-[180px] bg-white"></div>
+            <img
+              src={LogoImg}
+              alt="Logo"
+              style={{
+                width: "250px",
+              }}
+            />
             <p className="mt-4 w-11/12 md:w-3/5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In eius
               optio commodi aperiam! Ipsam mollitia esse repellat consequatur
@@ -34,14 +41,16 @@ const Footer = () => {
               Contact Info
             </h1>
             <div className="flex flex-col space-y-1 text-secondary mt-4">
-              <a href="#">Phone: </a>
-              <a href="#">E-mail: test@test.com</a>
-              <a href="#">Location: </a>
+              <a href="tel:+1-817-600-6228">Phone: +1 (817) 600-6228</a>
+              <a href="mailto:rent@enochdfw.com">E-mail: rent@enochdfw.com</a>
+              <a href="#" target={"_blank"}>
+                Location: <span>8940 Creek Run Rd Fort Worth, TX 76120</span>
+              </a>
             </div>
           </div>
         </div>
         <p className="text-center">
-          Copyright {new Date().getFullYear()} Company Name . All Rights
+          Copyright {new Date().getFullYear()} Enoch Properties . All Rights
           Reserved. Property Manager Website powered by PMW | Sitemap
         </p>
       </div>

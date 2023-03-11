@@ -49,3 +49,12 @@
 .dropdown:hover .dropbtn {
   opacity: 0.5;
 }
+.text-truncate-5 {
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
